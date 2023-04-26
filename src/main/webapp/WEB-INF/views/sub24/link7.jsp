@@ -18,7 +18,8 @@
 			last <input type="text" name="lastName" value="${em.lastName }"/> <br />
 			생일 <input type="text" name="birthdate" value="${em.birthdate }"/> <br />
 			포토 <input type="text" name="photo" value="${em.photo }" /> <br />
-			노트 <input type="text" name="notes" value="${em.notes }" /> <br />
+			<%-- 노트 <input type="text" name="notes" value="${em.notes }" /> <br /> --%>
+			노트 <textarea name="notes" id="" cols="30" rows="10">${em.notes }</textarea>
 			<input type="submit" value="수정" />
 			
 		
